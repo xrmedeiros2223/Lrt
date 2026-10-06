@@ -1,0 +1,62 @@
+[
+  {
+    "file": "lucas-retrato.png",
+    "received_on": "2026-10-06",
+    "width": 150,
+    "height": 150,
+    "bytes": 35872,
+    "sha256": "F1B3AEF5410407C9CC5114E8A58B64789616B3284195F8C112D8C2971CF186FD",
+    "origin": "Retrato do Lucas Rafael enviado pelo usuário no chat em 06/10/2026 (150 px; pedir versão maior).",
+    "edited": false
+  },
+  {
+    "file": "estudio-ficticio.png",
+    "received_on": "2026-10-06",
+    "width": 387,
+    "height": 516,
+    "bytes": 324955,
+    "sha256": "78DAE784E9D380826E87128BA7E918107BB8BD46AA4FEEE9DC8BD3DD132F83B3",
+    "origin": "Imagem de estúdio FICTÍCIA enviada pelo usuário para uso provisório; não retrata o estúdio do Lucas. Exibir sempre identificada como ilustrativa.",
+    "edited": false
+  },
+  {
+    "file": "story-cobertura-espartano-braco.webp",
+    "received_on": "2026-10-06",
+    "width": 723,
+    "height": 1291,
+    "bytes": 102574,
+    "sha256": "CB885D01D4A3D6B8F9E1F7700C46FD9339820DCBC795E102B028D86B56FE7998",
+    "origin": "Print de story do destaque 'Coberturas' do @lr7tattoo, enviado pelo usuário. Antes (carpa) e agora (espartano).",
+    "edited": false
+  },
+  {
+    "file": "story-cobertura-relogio.webp",
+    "received_on": "2026-10-06",
+    "width": 727,
+    "height": 1295,
+    "bytes": 134122,
+    "sha256": "6F55F9486904289A4565D12CC7BB8188FB5558971811A178DE2832EDA9AB5C58",
+    "origin": "Print de story do destaque 'Coberturas' do @lr7tattoo, enviado pelo usuário. Legenda do story: correção de uma tatuagem existente.",
+    "edited": false
+  },
+  {
+    "file": "story-cobertura-espartano-perna.webp",
+    "received_on": "2026-10-06",
+    "width": 721,
+    "height": 1305,
+    "bytes": 141068,
+    "sha256": "23FD3E19DAF17DC134501096D13AC6AAC5440FF35BF6F91EF18C67635C372D4C",
+    "origin": "Print de story do destaque 'Coberturas' do @lr7tattoo, enviado pelo usuário. Antes (lettering 'Deus me abençoe' e 1949) e agora (espartano e templo).",
+    "edited": false
+  },
+  {
+    "file": "story-fechamento-lettering-perna.webp",
+    "received_on": "2026-10-06",
+    "width": 706,
+    "height": 1266,
+    "bytes": 74450,
+    "sha256": "4280E1CD4D194B52090164B40F3B15E156357152388F72B6A2C2ADC538DBB3C6",
+    "origin": "Print de story do destaque 'FECHAMENTO' do @lr7tattoo, enviado pelo usuário. Marcação de cliente recortada na cópia web.",
+    "edited": false
+  }
+]

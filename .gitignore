@@ -1,0 +1,15 @@
+# Capturas de teste e revisão (pesadas, regeneráveis)
+.impeccable/review/
+.impeccable/config.local.json
+
+# Cópias de leitura das skills de terceiros (consultadas, não fazem parte do site)
+vendor/
+
+# Prints brutos de stories: contêm marcações de clientes. O site usa só os recortes em assets/img.
+referencias/usuario/story-*
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/

@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-06T23:41:59.600Z",
+  "title": "Design System: LR7 Tattoo",
+  "extensions": {
+    "colorMeta": {
+      "cobalt": {
+        "role": "primary",
+        "displayName": "Cobalto de Horizonte",
+        "canonical": "oklch(55.2% 0.247 266)",
+        "tonalRamp": [
+          "#060049",
+          "#060179",
+          "#1128ad",
+          "#2449e4",
+          "#4070ff",
+          "#689bff",
+          "#93c3ff",
+          "#bfebff"
+        ]
+      },
+      "cobalt-hi": {
+        "role": "primary",
+        "displayName": "Cobalto Alto",
+        "canonical": "oklch(78.9% 0.106 267)",
+        "tonalRamp": [
+          "#020037",
+          "#101d57",
+          "#2a3d7a",
+          "#475d9d",
+          "#677fc2",
+          "#88a2e8",
+          "#abc7ff",
+          "#d0edff"
+        ]
+      },
+      "rose": {
+        "role": "secondary",
+        "displayName": "Brasa Rosa",
+        "canonical": "oklch(68.6% 0.123 5)",
+        "tonalRamp": [
+          "#2c0005",
+          "#4f001c",
+          "#731c38",
+          "#983e57",
+          "#be6077",
+          "#e5839a",
+          "#ffa7bd",
+          "#ffcce2"
+        ]
+      },
+      "cyc": {
+        "role": "neutral",
+        "displayName": "Preto de Ciclorama",
+        "canonical": "oklch(12.8% 0.011 259)",
+        "tonalRamp": [
+          "#090b10",
+          "#22252a",
+          "#3f4248",
+          "#5e6168",
+          "#7f8389",
+          "#a1a5ac",
+          "#c5c9d0",
+          "#eaeff6"
+        ]
+      },
+      "cyc-2": {
+        "role": "neutral",
+        "displayName": "Noite Cobalto",
+        "canonical": "oklch(20.1% 0.058 266)",
+        "tonalRamp": [
+          "#030823",
+          "#182341",
+          "#344161",
+          "#526183",
+          "#7282a6",
+          "#94a5ca",
+          "#b8c9f0",
+          "#ddeeff"
+        ]
+      },
+      "dawn-ember": {
+        "role": "neutral",
+        "displayName": "Ameixa de Alvorada",
+        "canonical": "oklch(38.0% 0.066 352)",
+        "tonalRamp": [
+          "#1d000e",
+          "#3c1528",
+          "#5d3346",
+          "#7e5165",
+          "#a27286",
+          "#c694a9",
+          "#ecb8cd",
+          "#ffddf3"
+        ]
+      },
+      "day": {
+        "role": "neutral",
+        "displayName": "Dia Frio",
+        "canonical": "oklch(95.2% 0.009 264)",
+        "tonalRamp": [
+          "#090b0f",
+          "#232529",
+          "#404247",
+          "#5f6166",
+          "#808288",
+          "#a2a5ab",
+          "#c6c9cf",
+          "#ebeef4"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta",
+        "canonical": "oklch(96.7% 0.006 264)",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#242528",
+          "#404245",
+          "#5f6165",
+          "#808286",
+          "#a3a5a9",
+          "#c7c9cd",
+          "#eceef2"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Tinta Secundária",
+        "canonical": "oklch(80.4% 0.026 265)",
+        "tonalRamp": [
+          "#060b16",
+          "#1f2532",
+          "#3b4250",
+          "#5a6170",
+          "#7b8292",
+          "#9da5b6",
+          "#c1c9da",
+          "#e6efff"
+        ]
+      },
+      "ink-dawn": {
+        "role": "neutral",
+        "displayName": "Tinta de Alvorada",
+        "canonical": "oklch(89.1% 0.019 269)",
+        "tonalRamp": [
+          "#080b13",
+          "#21252e",
+          "#3e424c",
+          "#5d616c",
+          "#7e828e",
+          "#a0a5b1",
+          "#c4c9d6",
+          "#e9eefc"
+        ]
+      },
+      "caption-dawn": {
+        "role": "neutral",
+        "displayName": "Legenda de Alvorada",
+        "canonical": "oklch(76.6% 0.032 267)",
+        "tonalRamp": [
+          "#060a18",
+          "#1e2535",
+          "#3a4253",
+          "#596174",
+          "#7a8296",
+          "#9ca5ba",
+          "#c0c9df",
+          "#e5eeff"
+        ]
+      },
+      "hairline-cobalt": {
+        "role": "neutral",
+        "displayName": "Fio de Cobalto",
+        "canonical": "rgba(157,184,255,.35)"
+      },
+      "ink-day": {
+        "role": "neutral",
+        "displayName": "Tinta do Dia",
+        "canonical": "oklch(17.9% 0.038 270)",
+        "tonalRamp": [
+          "#060a1b",
+          "#1e2438",
+          "#3a4157",
+          "#596077",
+          "#79829a",
+          "#9ca4be",
+          "#bfc9e3",
+          "#e5eeff"
+        ]
+      },
+      "ink-day-soft": {
+        "role": "neutral",
+        "displayName": "Tinta do Dia Suave",
+        "canonical": "oklch(33.3% 0.050 268)",
+        "tonalRamp": [
+          "#040920",
+          "#1b243d",
+          "#37415d",
+          "#55607e",
+          "#7582a1",
+          "#98a5c5",
+          "#bbc9eb",
+          "#e0eeff"
+        ]
+      },
+      "ink-day-muted": {
+        "role": "neutral",
+        "displayName": "Tinta do Dia Apagada",
+        "canonical": "oklch(39.4% 0.051 269)",
+        "tonalRamp": [
+          "#040820",
+          "#1b233e",
+          "#37415d",
+          "#55607f",
+          "#7681a2",
+          "#98a4c6",
+          "#bcc8eb",
+          "#e0eeff"
+        ]
+      },
+      "veil-cyc": {
+        "role": "neutral",
+        "displayName": "Véu de Ciclorama",
+        "canonical": "rgba(5,7,11,.8)"
+      },
+      "ink-idle": {
+        "role": "neutral",
+        "displayName": "Tinta Ociosa",
+        "canonical": "oklch(66.1% 0.038 268)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Só o título do hero; no celular clamp(3rem, 15vw, 4.6rem). O título do Dia usa clamp(3rem, 8vw, 6rem)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Títulos de seção (Obras, comparador antes/depois, Projetos, Lucas)."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Subtítulo de bloco (Como começa)."
+      },
+      "title-sm": {
+        "displayName": "Title pequeno",
+        "purpose": "Nome da obra na galeria, nome de cada caso do comparador (1.25rem no celular) e nome de cada passo; abas usam clamp(1.9rem, 3.6vw, 2.7rem)."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texto corrido em colunas de 44 a 52ch."
+      },
+      "body-lead": {
+        "displayName": "Lead",
+        "purpose": "Lead de Projetos (1.15rem) e do Dia (1.2rem), máximo 46ch."
+      },
+      "label": {
+        "displayName": "Label de cue",
+        "purpose": "Trilho de cues, etiquetas Antes/Depois do comparador e contador da galeria ampliada; caixa-alta, numerais tabulares. Reservada a orientação e estado."
+      },
+      "nav": {
+        "displayName": "Nav",
+        "purpose": "Links do cabeçalho e links sublinhados."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Legendas de figura, legenda e nota do comparador (nota 0.88rem em caption-dawn), legenda da foto ilustrativa (0.85rem) e rodapé."
+      }
+    },
+    "shadows": [
+      {
+        "name": "halo-cobalto",
+        "value": "0 10px 30px -10px rgba(47,91,255,.7)",
+        "purpose": "Única sombra do sistema: hover do botão principal, como luz refletida sob a pílula."
+      },
+      {
+        "name": "sombra-do-puxador",
+        "value": "0 8px 20px -8px rgba(0,0,0,.7)",
+        "purpose": "Sob o puxador circular do comparador, para se ler sobre qualquer foto."
+      },
+      {
+        "name": "contorno-da-divisoria",
+        "value": "0 0 0 1px rgba(5,7,11,.35)",
+        "purpose": "Fio escuro de 1px em volta da divisória de 2px em ink."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Curva única de transição no CSS (equivale a expo.out no GSAP)."
+      },
+      {
+        "name": "ease-gsap",
+        "value": "expo.out",
+        "purpose": "Entradas únicas por rolagem: legendas, títulos por clip-path, passos, foto de Lucas (0.9–1.3s)."
+      },
+      {
+        "name": "hero-zoom",
+        "value": "power2.inOut, scrub 0.7, pin 150% (110% celular), escala 2.7 → 1 (2.1 no celular)",
+        "purpose": "Sequência principal Noite → Primeira luz."
+      },
+      {
+        "name": "gallery-light",
+        "value": "filter brightness(.22) contrast(1.1) → brightness(1), scrub 0.5; linha --line 0 → 1; paralaxe ±4%",
+        "purpose": "Cada obra acende com a rolagem."
+      },
+      {
+        "name": "compare-entry",
+        "value": "stage clip-path inset(100% 0 0 0) → none, 1.2s expo.out (top 78%); casos y 18 → 0, 0.8s expo.out, stagger 0.1",
+        "purpose": "Entrada do comparador, uma vez."
+      },
+      {
+        "name": "compare-hint",
+        "value": "--pos 50 → 40 (0.6s power2.inOut) → 58 (0.7s power2.inOut) → 50 (0.5s power2.out), delay 0.15s; cancelada por qualquer gesto",
+        "purpose": "Mostra uma única vez que a divisória se move."
+      },
+      {
+        "name": "compare-switch",
+        "value": "camadas opacity → 0 em 220ms ease-out; depois recentra --pos em 0.5s power2.out, a menos que o visitante tenha agido",
+        "purpose": "Troca de caso."
+      },
+      {
+        "name": "compare-drag",
+        "value": "direto, sem interpolação; knob transform .18s cubic-bezier(.16,1,.3,1) (hover 1.06, arrastando .94)",
+        "purpose": "Manipulação direta da divisória."
+      },
+      {
+        "name": "button-sweep",
+        "value": "transform .6s cubic-bezier(.16,1,.3,1); gradiente 100deg #6f93ff → rose",
+        "purpose": "Preenchimento do botão no hover/foco."
+      },
+      {
+        "name": "duration-range",
+        "value": "350ms–1300ms",
+        "purpose": "Faixa de durações; sem loop, sem overshoot."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation/transition 0.01ms; nenhum ScrollTrigger",
+        "purpose": "Hero nasce no estado final composto."
+      },
+      {
+        "name": "header-ground",
+        "value": ".bar::before linear-gradient(cyc 50%, transparente) com cauda de 18px, opacidade .92; <900px + is-scrolled: opaco até calc(100% - 18px); is-menu: tinta da noite, fundo some",
+        "purpose": "Legibilidade do cabeçalho sobre qualquer faixa."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "lightbox-compact",
+        "value": "640px"
+      },
+      {
+        "name": "single-column",
+        "value": "899px",
+        "note": "Colunas viram uma, menu hambúrguer, cabeçalho opaco ao rolar, comparador na ordem texto/painel/casos com miniaturas 44x59, retrato 84px, foto ilustrativa min(55%,240px)."
+      },
+      {
+        "name": "cue-rail",
+        "value": "1100px"
+      },
+      {
+        "name": "cue-label-open",
+        "value": "1600px"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "alvorada",
+        "value": "linear-gradient(180deg,#05070b 0%,#0a1430 22%,#17194a 52%,#352445 78%,#5d3346 100%)",
+        "purpose": "Fundo de Projetos e Lucas."
+      },
+      {
+        "name": "alvorada-para-dia",
+        "value": "linear-gradient(180deg,#5d3346 0%,#b58a9d 45%,#eceff5 100%)",
+        "purpose": "Faixa de 36vh que leva ao Dia."
+      },
+      {
+        "name": "horizonte",
+        "value": "linear-gradient(to top,rgba(47,91,255,.55),rgba(47,91,255,0)) + border-bottom 2px #2f5bff",
+        "purpose": "Faixa cobalto baixa do hero (34%, 22% no celular)."
+      },
+      {
+        "name": "brasa",
+        "value": "radial-gradient(120% 90% at 50% 100%,rgba(217,120,143,.38),transparent 70%), mix-blend-mode screen",
+        "purpose": "Brilho rosa acima do horizonte no hero."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Pílula cobalto; no hover/foco um gradiente cobalto-claro → rosa varre da esquerda.",
+      "html": "<a class=\"ds-btn\" href=\"#\">Fale comigo</a>",
+      "css": ".ds-btn{position:relative;display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 28px;border-radius:999px;background:var(--cobalt,#2f5bff);color:#fff;text-decoration:none;font:600 1rem/1 var(--body,'Hanken Grotesk',system-ui,sans-serif);overflow:hidden;isolation:isolate;transition:transform .35s cubic-bezier(.16,1,.3,1),box-shadow .35s}.ds-btn::before{content:'';position:absolute;inset:0;background:linear-gradient(100deg,#6f93ff,var(--rose,#d9788f));transform:translateX(-101%);transition:transform .6s cubic-bezier(.16,1,.3,1);z-index:-1}.ds-btn:hover::before,.ds-btn:focus-visible::before{transform:none}.ds-btn:hover{box-shadow:0 10px 30px -10px rgba(47,91,255,.7)}.ds-btn:focus-visible{outline:2px solid var(--cobalt-hi,#9db8ff);outline-offset:3px}.ds-btn:active{transform:scale(.97)}"
+    },
+    {
+      "name": "Botão principal grande",
+      "kind": "button",
+      "refersTo": "button-primary-lg",
+      "description": "Variante de 64px usada no fechamento (Dia).",
+      "html": "<a class=\"ds-btn-lg\" href=\"#\">Fale comigo no WhatsApp</a>",
+      "css": ".ds-btn-lg{position:relative;display:inline-flex;align-items:center;min-height:64px;padding:0 40px;border-radius:999px;background:var(--cobalt,#2f5bff);color:#fff;text-decoration:none;font:600 1.125rem/1 var(--body,'Hanken Grotesk',system-ui,sans-serif);overflow:hidden;isolation:isolate;transition:transform .35s cubic-bezier(.16,1,.3,1),box-shadow .35s}.ds-btn-lg::before{content:'';position:absolute;inset:0;background:linear-gradient(100deg,#6f93ff,var(--rose,#d9788f));transform:translateX(-101%);transition:transform .6s cubic-bezier(.16,1,.3,1);z-index:-1}.ds-btn-lg:hover::before,.ds-btn-lg:focus-visible::before{transform:none}.ds-btn-lg:hover{box-shadow:0 10px 30px -10px rgba(47,91,255,.7)}.ds-btn-lg:focus-visible{outline:2px solid var(--cobalt-hi,#9db8ff);outline-offset:3px}.ds-btn-lg:active{transform:scale(.97)}"
+    },
+    {
+      "name": "Botão fantasma",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Pílula com borda cobalto-alto a 50%; só no Fechar da galeria ampliada.",
+      "html": "<button class=\"ds-ghost\" type=\"button\">Fechar</button>",
+      "css": ".ds-ghost{all:unset;cursor:pointer;min-height:44px;padding:0 18px;display:inline-flex;align-items:center;border:1px solid rgba(157,184,255,.5);border-radius:999px;color:var(--ink,#f2f4f8);font:500 1rem/1 var(--body,'Hanken Grotesk',system-ui,sans-serif);background:var(--cyc,#05070b);transition:background .3s}.ds-ghost:hover{background:rgba(157,184,255,.15)}.ds-ghost:focus-visible{outline:2px solid var(--cobalt-hi,#9db8ff);outline-offset:3px}"
+    },
+    {
+      "name": "Link sublinhado",
+      "kind": "custom",
+      "refersTo": "link-underline",
+      "description": "Link secundário com fio de 1px que se recolhe para 35% no hover.",
+      "html": "<span style=\"background:#05070b;padding:12px;display:inline-block\"><a class=\"ds-link\" href=\"#\">Ver as obras</a></span>",
+      "css": ".ds-link{position:relative;display:inline-block;padding:12px 2px;color:var(--ink,#f2f4f8);font:500 1rem/1.6 var(--body,'Hanken Grotesk',system-ui,sans-serif);text-decoration:none}.ds-link::after{content:'';position:absolute;left:2px;right:2px;bottom:8px;height:1px;background:currentColor;transform-origin:left;transition:transform .5s cubic-bezier(.16,1,.3,1)}.ds-link:hover::after{transform:scaleX(.35)}.ds-link:focus-visible{outline:2px solid var(--cobalt-hi,#9db8ff);outline-offset:3px}"
+    },
+    {
+      "name": "Navegação do cabeçalho",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Marca LR7/TATTOO e links em tinta secundária com fio que cresce da esquerda.",
+      "html": "<header class=\"ds-bar\"><a class=\"ds-mark\" href=\"#\"><span class=\"ds-mark-lr\">LR7</span><span class=\"ds-mark-tt\">TATTOO</span></a><nav class=\"ds-nav\"><a href=\"#\">Obras</a><a href=\"#\">Projetos</a><a href=\"#\">Lucas</a><a href=\"#\">Contato</a></nav></header>",
+      "css": ".ds-bar{display:flex;align-items:center;gap:28px;padding:16px 24px;background:var(--cyc,#05070b);color:var(--ink,#f2f4f8)}.ds-mark{display:flex;align-items:baseline;gap:8px;text-decoration:none;color:inherit;font-family:var(--display,'Big Shoulders Display','Arial Narrow',sans-serif)}.ds-mark-lr{font-weight:900;font-size:1.9rem;letter-spacing:.02em;line-height:1}.ds-mark-tt{font-weight:700;font-size:.95rem;letter-spacing:.32em;color:var(--cobalt-hi,#9db8ff)}.ds-nav{margin-left:auto;display:flex;gap:30px}.ds-nav a{position:relative;text-decoration:none;font:500 .95rem/1.6 var(--body,'Hanken Grotesk',system-ui,sans-serif);padding:6px 0;color:var(--ink-2,#b7bfd0);transition:color .25s}.ds-nav a::after{content:'';position:absolute;left:0;right:0;bottom:0;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .45s cubic-bezier(.16,1,.3,1)}.ds-nav a:hover{color:var(--ink,#f2f4f8)}.ds-nav a:hover::after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:2px solid var(--cobalt-hi,#9db8ff);outline-offset:3px}"
+    },
+    {
+      "name": "Abas de especialidade",
+      "kind": "custom",
+      "refersTo": "tab",
+      "description": "Rótulos em display caixa-alta sobre fio de cobalto; ativo ganha sublinhado de 3px.",
+      "html": "<div class=\"ds-tabs\"><div class=\"ds-tablist\" role=\"tablist\"><button role=\"tab\" aria-selected=\"true\">Realismo</button><button role=\"tab\" aria-selected=\"false\">Cobertura</button><button role=\"tab\" aria-selected=\"false\">Florais</button></div></div>",
+      "css": ".ds-tabs{background:#17194a;padding:24px}.ds-tablist{display:flex;flex-wrap:wrap;gap:6px 30px;border-bottom:1px solid rgba(157,184,255,.35)}.ds-tablist button{all:unset;cursor:pointer;position:relative;font-family:var(--display,'Big Shoulders Display','Arial Narrow',sans-serif);font-weight:800;text-transform:uppercase;font-size:clamp(1.9rem,3.6vw,2.7rem);line-height:1;padding:10px 0 14px;color:#8b94ad;transition:color .3s}.ds-tablist button::after{content:'';position:absolute;left:0;right:0;bottom:-1px;height:3px;background:var(--cobalt-hi,#9db8ff);transform:scaleX(0);transform-origin:left;transition:transform .5s cubic-bezier(.16,1,.3,1)}.ds-tablist button:hover,.ds-tablist button[aria-selected='true']{color:var(--ink,#f2f4f8)}.ds-tablist button[aria-selected='true']::after{transform:scaleX(1)}.ds-tablist button:focus-visible{outline:2px solid var(--cobalt-hi,#9db8ff);outline-offset:4px}"
+    },
+    {
+      "name": "Trilho de cues",
+      "kind": "nav",
+      "refersTo": "cue-item",
+      "description": "Assinatura: trilho lateral numerado 01–04; ativo em cobalto-alto com traço longo; rótulo abre no hover/foco. Só acima de 1100px.",
+      "html": "<nav class=\"ds-cues\"><ol><li><a href=\"#\"><span class=\"ds-cn\">01</span><span class=\"ds-ct\">Noite</span></a></li><li><a href=\"#\" class=\"is-on\"><span class=\"ds-cn\">02</span><span class=\"ds-ct\">Primeira luz</span></a></li><li><a href=\"#\"><span class=\"ds-cn\">03</span><span class=\"ds-ct\">Alvorada</span></a></li><li><a href=\"#\"><span class=\"ds-cn\">04</span><span class=\"ds-ct\">Dia</span></a></li></ol></nav>",
+      "css": ".ds-cues{background:var(--cyc,#05070b);padding:24px}.ds-cues ol{list-style:none;margin:0;padding:0;display:grid;gap:18px}.ds-cues a{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--display,'Big Shoulders Display','Arial Narrow',sans-serif);font-weight:700;font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2,#b7bfd0);opacity:.55;transition:opacity .3s,color .3s}.ds-cues a::before{content:'';width:18px;height:1px;background:currentColor;order:-1;transition:width .5s cubic-bezier(.16,1,.3,1)}.ds-cn{font-variant-numeric:tabular-nums;width:2ch}.ds-ct{max-width:0;overflow:hidden;white-space:nowrap;transition:max-width .5s cubic-bezier(.16,1,.3,1)}.ds-cues a:hover,.ds-cues a:focus-visible,.ds-cues a.is-on{opacity:1}.ds-cues a.is-on{color:var(--cobalt-hi,#9db8ff)}.ds-cues a.is-on::before{width:34px}.ds-cues a:hover .ds-ct,.ds-cues a:focus-visible .ds-ct{max-width:12ch}.ds-cues a:focus-visible{outline:2px solid var(--cobalt-hi,#9db8ff);outline-offset:3px}"
+    },
+    {
+      "name": "Obra da galeria",
+      "kind": "card",
+      "refersTo": "title-sm",
+      "description": "Foto de canto reto com linha cobalto de 3px na base e legenda em display; abre a galeria ampliada.",
+      "html": "<button class=\"ds-work\" type=\"button\"><span class=\"ds-work-ph\"></span><span class=\"ds-work-cap\"><strong>Mulher-lobo</strong><span>Retrato em realismo, com o olhar como foco.</span></span></button>",
+      "css": ".ds-work{all:unset;display:block;width:260px;cursor:pointer;background:var(--cyc,#05070b);padding:16px;color:var(--ink,#f2f4f8)}.ds-work-ph{position:relative;display:block;aspect-ratio:3/4;background:#0b0e16}.ds-work-ph::before{content:'';position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--cobalt,#2f5bff)}.ds-work-cap{display:grid;gap:2px;margin-top:16px}.ds-work-cap strong{font-family:var(--display,'Big Shoulders Display','Arial Narrow',sans-serif);font-weight:800;text-transform:uppercase;font-size:1.6rem;letter-spacing:.01em;line-height:1.05;transition:color .3s}.ds-work-cap span{color:var(--ink-2,#b7bfd0);font:400 .95rem/1.6 var(--body,'Hanken Grotesk',system-ui,sans-serif)}.ds-work:hover .ds-work-cap strong{color:var(--cobalt-hi,#9db8ff)}.ds-work:focus-visible{outline:2px solid var(--cobalt-hi,#9db8ff);outline-offset:6px}"
+    },
+    {
+      "name": "Identidade do artista",
+      "kind": "custom",
+      "refersTo": "artist-portrait",
+      "description": "Retrato quadrado de 112px (84px no celular), sem raio, borda inferior de 3px em cobalto, ao lado do H2 com o nome.",
+      "html": "<div class=\"ds-id\"><span class=\"ds-face\"></span><h2>Lucas Rafael</h2></div>",
+      "css": ".ds-id{display:flex;align-items:center;gap:clamp(16px,2vw,26px);padding:20px;background:#17194a;color:var(--ink,#f2f4f8)}.ds-face{display:block;width:112px;height:112px;flex:none;background:linear-gradient(160deg,#3a3d44,#15171c);border-bottom:3px solid var(--cobalt,#2f5bff)}.ds-id h2{margin:0;font-family:var(--display,'Big Shoulders Display','Arial Narrow',sans-serif);font-weight:800;text-transform:uppercase;font-size:clamp(2.6rem,6.4vw,5.2rem);line-height:1;letter-spacing:.005em}"
+    },
+    {
+      "name": "Comparador antes/depois",
+      "kind": "custom",
+      "refersTo": "compare-knob",
+      "description": "Duas fotos registradas no mesmo quadro; o Antes é recortado por clip-path até a divisória arrastável. Etiquetas Antes (ink-2) e Depois (cobalt-hi), horizonte cobalto de 3px na base.",
+      "html": "<div class=\"ds-ba\"><div class=\"ds-ba-stage\" style=\"--pos:50%\"><div class=\"ds-ba-layer ds-ba-after\"><span class=\"ds-ba-tag ds-ba-tag--a\">Depois</span></div><div class=\"ds-ba-layer ds-ba-before\"><span class=\"ds-ba-tag ds-ba-tag--b\">Antes</span></div><div class=\"ds-ba-handle\"><button class=\"ds-ba-knob\" type=\"button\" aria-label=\"Divisória entre antes e depois\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M9 6 3 12l6 6M15 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button></div></div></div>",
+      "css": ".ds-ba{width:300px;padding:16px;background:var(--cyc,#05070b)}.ds-ba-stage{position:relative;width:100%;aspect-ratio:3/4;overflow:hidden;background:#0b0e16;border-bottom:3px solid var(--cobalt,#2f5bff);cursor:ew-resize;touch-action:pan-y}.ds-ba-layer{position:absolute;inset:0;isolation:isolate}.ds-ba-after{background:linear-gradient(160deg,#4a5060,#121726)}.ds-ba-before{background:linear-gradient(160deg,#3a3026,#1b2133);clip-path:inset(0 calc(100% - var(--pos,50%)) 0 0)}.ds-ba-tag{position:absolute;top:0;z-index:2;padding:7px 11px 6px;background:rgba(5,7,11,.8);font-family:var(--display,'Big Shoulders Display','Arial Narrow',sans-serif);font-weight:700;font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;line-height:1;color:var(--ink-2,#b7bfd0)}.ds-ba-tag--b{left:0}.ds-ba-tag--a{right:0;color:var(--cobalt-hi,#9db8ff)}.ds-ba-handle{position:absolute;top:0;bottom:0;left:var(--pos,50%);z-index:3;width:2px;transform:translateX(-50%);background:var(--ink,#f2f4f8);box-shadow:0 0 0 1px rgba(5,7,11,.35)}.ds-ba-knob{all:unset;cursor:ew-resize;position:absolute;top:50%;left:50%;width:56px;height:56px;box-sizing:border-box;display:grid;place-items:center;border-radius:50%;background:rgba(5,7,11,.85);color:var(--ink,#f2f4f8);border:2px solid var(--cobalt-hi,#9db8ff);box-shadow:0 8px 20px -8px rgba(0,0,0,.7);transform:translate(-50%,-50%);transition:transform .18s cubic-bezier(.16,1,.3,1),background-color .18s,border-color .18s}.ds-ba-stage:hover .ds-ba-knob{transform:translate(-50%,-50%) scale(1.06)}.ds-ba-knob:active{transform:translate(-50%,-50%) scale(.94);background:var(--cobalt,#2f5bff);border-color:var(--cobalt,#2f5bff)}.ds-ba-knob:focus-visible{outline:2px solid var(--cobalt-hi,#9db8ff);outline-offset:4px}"
+    },
+    {
+      "name": "Caso do comparador",
+      "kind": "chip",
+      "refersTo": "compare-case",
+      "description": "Aba de caso gerada dos dados: miniatura 60x80 apagada quando ociosa, nome em title-sm, fio inferior de 2px que vira cobalto na seleção.",
+      "html": "<div class=\"ds-cases\" role=\"tablist\"><button class=\"ds-case\" role=\"tab\" aria-selected=\"true\"><span class=\"ds-case-th\"></span><span><strong>Espartano na perna</strong><span>Sobre um lettering antigo.</span></span></button><button class=\"ds-case\" role=\"tab\" aria-selected=\"false\"><span class=\"ds-case-th ds-case-ph\">Sem foto</span><span><strong>Relógio e rosa</strong><span>Correção de detalhes.</span></span></button></div>",
+      "css": ".ds-cases{display:grid;gap:4px;width:360px;padding:16px;background:var(--cyc,#05070b)}.ds-case{all:unset;box-sizing:border-box;display:grid;grid-template-columns:60px minmax(0,1fr);gap:18px;align-items:center;padding:12px 0;cursor:pointer;border-bottom:2px solid rgba(157,184,255,.18);transition:border-color .3s}.ds-case-th{display:block;width:60px;height:80px;background:linear-gradient(160deg,#4a5060,#121726);filter:brightness(.45) grayscale(.4);transition:filter .4s cubic-bezier(.16,1,.3,1)}.ds-case-ph{display:grid;place-items:center;background:#1b2133;color:var(--ink-2,#b7bfd0);font:400 .7rem/1.2 var(--body,'Hanken Grotesk',system-ui,sans-serif);text-align:center}.ds-case strong{display:block;font-family:var(--display,'Big Shoulders Display','Arial Narrow',sans-serif);font-weight:800;text-transform:uppercase;font-size:1.6rem;line-height:1.05;color:#8b94ad;transition:color .3s}.ds-case span span{display:block;margin-top:4px;color:var(--ink-2,#b7bfd0);font:400 .95rem/1.6 var(--body,'Hanken Grotesk',system-ui,sans-serif)}.ds-case:hover strong,.ds-case[aria-selected='true'] strong{color:var(--ink,#f2f4f8)}.ds-case:hover .ds-case-th{filter:brightness(.75) grayscale(.2)}.ds-case[aria-selected='true']{border-bottom-color:var(--cobalt,#2f5bff)}.ds-case[aria-selected='true'] .ds-case-th{filter:none}.ds-case:focus-visible{outline:2px solid var(--cobalt-hi,#9db8ff);outline-offset:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "O Ciclorama",
+    "overview": "A página é um estúdio de luz contínuo: começa no preto de ciclorama, sobe uma faixa de cobalto no horizonte, ganha uma brasa rosa acima dela, atravessa uma alvorada violeta e termina num dia frio e claro. A luz é a estrutura; não há cards, grades de miniaturas nem painéis com sombra. Cada seção é uma faixa horizontal de fundo inteiro, e a tatuagem aparece porque a luz sobe sobre ela (escala, véu, brilho e recorte), nunca porque um container a emoldura.\n\nA densidade é baixa e editorial: muito preto, títulos condensados em caixa-alta como cartelas de plano de luz, corpo em Hanken Grotesk com colunas curtas (44 a 52ch) e um recuo lateral fixo que guarda espaço para o trilho de cues no desktop. O movimento é de uma voz só (desaceleração longa, sem overshoot) e sempre serve à revelação da obra ou à orientação.\n\nO mundo é reconhecível sem conteúdo: faixas escuras horizontais, uma linha cobalto espessa na base das coisas e um trilho numerado na margem esquerda.",
+    "keyCharacteristics": [
+      "Fundo em faixas de cor inteira que seguem a ordem preto, cobalto, alvorada, dia; nunca voltam atrás, exceto o rodapé.",
+      "Linha cobalto de 2 a 3px como horizonte recorrente (hero, topo das Obras, base de cada foto da galeria, base do palco do comparador antes/depois, base do retrato do Lucas, nota do Dia, aba ativa).",
+      "Títulos em Big Shoulders Display 800, caixa-alta, entrelinha abaixo de 1.",
+      "Controles em pílula; fotografias com cantos retos.",
+      "Imagens entram por luz (brilho, véu, clip-path), não por fade com deslocamento genérico."
+    ],
+    "rules": [
+      {
+        "name": "The Horizon Line Rule",
+        "body": "O cobalto marca o horizonte: linhas horizontais de 2–3px na base ou no topo de um elemento. Não use cobalto em contornos verticais, molduras completas ou fundos de seção.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ember Rule",
+        "body": "O rosa só existe como luz (brilho, gradiente, cauda de varredura) e sempre depois ou acima do cobalto. Nunca como texto, borda ou fundo chapado.",
+        "section": "colors"
+      },
+      {
+        "name": "The Day Is Last Rule",
+        "body": "O fundo day pertence apenas ao fechamento e só é alcançado pela alvorada. Ao entrar no dia, cabeçalho e trilho trocam para tinta escura (ink-day, ink-day-muted) e o cobalto alto vira cobalto pleno.",
+        "section": "colors"
+      },
+      {
+        "name": "The Lighting Cue Rule",
+        "body": "Todo título é Big Shoulders 800 em caixa-alta, com `text-wrap: balance` e entrelinha entre 0.9 e 1.05. Texto corrido nunca vai em caixa-alta.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Count Rule",
+        "body": "A voz de label (display 700, tracking largo, numerais tabulares) é reservada a orientação e estado: os numerais 01–04 do trilho, o contador da galeria ampliada e as etiquetas Antes/Depois, que dizem em que estado está a foto. Não é usada como chamada acima de títulos nem como enfeite.",
+        "section": "typography"
+      },
+      {
+        "name": "The Rail Gutter Rule",
+        "body": "O recuo à esquerda pertence ao trilho de cues. Entre 900px e 1100px o trilho está oculto, mas o recuo permanece; abaixo de 900px o recuo zera.",
+        "section": "layout"
+      },
+      {
+        "name": "The Light Not Lift Rule",
+        "body": "Nenhuma superfície, foto ou painel se eleva com sombra para ganhar destaque; sombra só serve a um controle que precisa se ler sobre imagem. Para destacar, aumente a luz: véu que abre, brilho que sobe, linha cobalto que corre.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Same-Frame Rule",
+        "body": "Um antes/depois só sobrepõe duas fotos registradas no mesmo enquadramento. Pares que não se alinham ficam lado a lado, como quadros separados da galeria ampliada, e nunca entram no comparador.",
+        "section": "components"
+      },
+      {
+        "name": "The Illustrative Label Rule",
+        "body": "Toda imagem ilustrativa leva uma legenda visível dizendo que é ilustrativa e o que ela não retrata, e nunca fica junto do nome ou do retrato do artista. Ela não recebe a linha de horizonte nem os efeitos de revelação reservados às obras.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "**Do** separar seções por mudança de fundo inteiro na ordem cyc → alvorada → day.",
+      "**Do** marcar destaque com uma linha cobalto horizontal de 2–3px, não com caixa ou sombra.",
+      "**Do** revelar imagens por luz: brilho, véu de cyc, clip-path de cima, escala que desce.",
+      "**Do** usar a curva `cubic-bezier(.16,1,.3,1)` / `expo.out` em toda transição de estado.",
+      "**Do** manter o anel de foco em cobalt-hi de 2px com offset de 3px (6px na galeria) em todo controle.",
+      "**Do** trocar para tinta escura (ink-day) ao colocar qualquer elemento sobre o fundo day.",
+      "**Do** mostrar antes e depois no comparador só quando as duas fotos estão registradas no mesmo quadro, com as duas metades etiquetadas."
+    ],
+    "donts": [
+      "**Don't** usar rosa como texto, borda ou fundo chapado; ele é só brasa.",
+      "**Don't** emoldurar fotografias em cards com borda, raio acima de 2px ou sombra; elas ficam retas e soltas na faixa.",
+      "**Don't** usar o fundo day fora do fechamento nem antes da alvorada.",
+      "**Don't** colocar texto corrido em caixa-alta ou títulos fora da Big Shoulders Display.",
+      "**Don't** usar sombra em superfícies, fotos ou painéis; ela fica restrita ao Halo de Cobalto do botão e ao puxador do comparador.",
+      "**Don't** criar movimento em loop, bounce ou overshoot.",
+      "**Don't** publicar imagem ilustrativa sem legenda visível ou ao lado do nome ou do retrato do artista."
+    ]
+  }
+}
